@@ -1,7 +1,7 @@
 {
-  "name": "@finsquid/ts-rest-hono",
+  "name": "@finfollow/ts-rest-hono",
   "description": "Hono integration for @ts-rest",
-  "version": "0.5.4",
+  "version": "0.5.5",
   "files": [
     "dist"
   ],
