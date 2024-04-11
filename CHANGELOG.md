@@ -1,5 +1,35 @@
 # Changelog
 
+All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+### 0.5.2 (2024-04-11)
+
+
+### Features
+
+* allow sync return ([#15](https://github.com/finfollow/ts-rest-hono/issues/15)) ([8df9de6](https://github.com/finfollow/ts-rest-hono/commit/8df9de6933748d899a97cccbb1d369b962dea622))
+* export RecursiveRouterObj type improving handler composability … ([#2](https://github.com/finfollow/ts-rest-hono/issues/2)) ([de80884](https://github.com/finfollow/ts-rest-hono/commit/de808841a4f1aeb8114eeb60cee58536905712cf))
+* pass through context on request/response error handlers ([27eac14](https://github.com/finfollow/ts-rest-hono/commit/27eac14e82ac995e3195bcbe5a0220ef8436b790))
+* provide the entire context to handlers and support early returns + escape hatches ([#1](https://github.com/finfollow/ts-rest-hono/issues/1)) ([00c1615](https://github.com/finfollow/ts-rest-hono/commit/00c16152b3322a76c5d59492229b28ed7bd0f413))
+* set operationId in the env variables ([#19](https://github.com/finfollow/ts-rest-hono/issues/19)) ([a2752e6](https://github.com/finfollow/ts-rest-hono/commit/a2752e61436275178d7c38cf1f0909b067587187))
+* support array brackets option ([#5](https://github.com/finfollow/ts-rest-hono/issues/5)) ([f1e8847](https://github.com/finfollow/ts-rest-hono/commit/f1e8847d8c279a4829459704861fe9fb2fe6fc12))
+* support overriding default zod error handling ([#8](https://github.com/finfollow/ts-rest-hono/issues/8)) ([1252ebd](https://github.com/finfollow/ts-rest-hono/commit/1252ebdb357b4e6e3a5e69edee3f02adf3f8ae96))
+* support resolvable options ([f25572a](https://github.com/finfollow/ts-rest-hono/commit/f25572ae23f1bd58806107d7f181a4fb546b9f28))
+* support urlencoded validation ([#29](https://github.com/finfollow/ts-rest-hono/issues/29)) ([a3e96d7](https://github.com/finfollow/ts-rest-hono/commit/a3e96d7b536c5e0856e1ed4e14d496ce0764eac9))
+* validate request headers ([#13](https://github.com/finfollow/ts-rest-hono/issues/13)) ([532a453](https://github.com/finfollow/ts-rest-hono/commit/532a453861abac04b278b4eef28c68947c68a6f4))
+
+
+### Bug Fixes
+
+* encodeURI ([#6](https://github.com/finfollow/ts-rest-hono/issues/6)) ([15ec322](https://github.com/finfollow/ts-rest-hono/commit/15ec3224e54d3e79601f8a47951ef1fe4e966c15))
+* handle unset content-type headers ([3446243](https://github.com/finfollow/ts-rest-hono/commit/3446243a39b0f7ecb242ffbc0a7d21bddca0e73a))
+* only parse bodies when necessary, switch test implementation ([#23](https://github.com/finfollow/ts-rest-hono/issues/23)) ([0906776](https://github.com/finfollow/ts-rest-hono/commit/0906776c4025b6454762b26c5f3284e00873f80a))
+* responseValidationErrorHandler guards with the right class ([#21](https://github.com/finfollow/ts-rest-hono/issues/21)) ([2a8740e](https://github.com/finfollow/ts-rest-hono/commit/2a8740e81ded035585de1637f07686db3501b80d))
+* set correct operationId variable name on mutations ([95d635b](https://github.com/finfollow/ts-rest-hono/commit/95d635b091c8c1f5158a607cd62ce8ddb352066d))
+
+
+* release 0.2.1 ([1a418d4](https://github.com/finfollow/ts-rest-hono/commit/1a418d4e038ceeecf635ee09571bb6fa1fd207ea))
+
 ## [0.5.0](https://github.com/msutkowski/ts-rest-hono/compare/ts-rest-hono-v0.4.0...ts-rest-hono-v0.5.0) (2023-11-25)
 
 
