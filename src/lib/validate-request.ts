@@ -9,6 +9,7 @@ import {
   resolveOption,
 } from "./utils";
 import { flattenToNested } from "./flatten-to-nested";
+import { StatusCode } from "hono/utils/http-status";
 
 /**
  * @throws - {@link RequestValidationError}
@@ -99,5 +100,5 @@ export const combinedRequestValidationErrorHandler = ({
   body: bodyErrors,
 }: RequestValidationError) => ({
   error: { pathParamsErrors, headersErrors, queryErrors, bodyErrors },
-  status: 400,
+  status: 400 as StatusCode,
 });

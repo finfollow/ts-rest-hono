@@ -232,6 +232,5 @@ app.onError((err, c) => {
   return c.json({ message: err.message }, 500);
 });
 
-app.showRoutes();
 
 export default app;
